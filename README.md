@@ -1,24 +1,111 @@
-# Sales Analysis Project (Python)
+# 📊 Sales Analysis Project
 
-This project analyzes product sales using Python dictionaries and modular programming.
+A Python-based console application for analyzing sales data using
+modular programming and functional concepts.
 
-## Features
+This project was developed as part of my Python OOP learning journey and
+demonstrates clean code structure, use of lambda functions, and
+exception handling.
 
-- Calculate total sales
-- Find most and least sold product
-- Detect critical stock levels
-- Validate sales data
-- Modular structure
+------------------------------------------------------------------------
 
-## Technologies
+## 🚀 Project Overview
 
-- Python 3
-- Functions
-- Lambda expressions
-- Exception handling
-- Modular programming
+The application allows:
 
-## How to run
+-   Calculating total number of sold products
+-   Finding the most sold product
+-   Finding the least sold product
+-   Detecting products with critical sales levels
+-   Validating sales data
+-   Handling exceptions safely
+-   Working with modular Python structure
 
-```bash
-python main.py
+------------------------------------------------------------------------
+
+## 🧠 Concepts Practiced
+
+-   Modular programming
+-   Functions and clean structure
+-   Lambda expressions
+-   filter(), max(), min()
+-   Working with dictionaries
+-   Exception handling (try-except)
+-   Git & GitHub workflow
+
+------------------------------------------------------------------------
+
+## 📂 Project Structure
+
+    oop-online-store-system/
+    │
+    ├── models/
+    │   ├── person.py
+    │   ├── employee.py
+    │   ├── user.py
+    │   └── product.py
+    │
+    ├── main.py
+    ├── README.md
+    └── .gitignore
+
+------------------------------------------------------------------------
+
+## ▶️ How to Run
+
+1️⃣ Clone the repository:
+
+    git clone https://github.com/nicktm8/sales-analysis-project.git
+
+2️⃣ Navigate to the project folder:
+
+    cd sales-analysis-project
+
+3️⃣ Run the program:
+
+    python main.py
+
+------------------------------------------------------------------------
+
+## 📌 Example Output
+
+    Sales:
+    Laptop: 15 jedinica
+    Mouse: 150 jedinica
+    Keyboards: 85 jedinica
+    Monitor: 35 jedinica
+    USB cables: 200 jedinica
+    Web camera: 0 jedinica
+
+    Ukupna količina prodatih proizvoda: 485
+    Najprodavaniji proizvod: USB cables (200)
+    Najmanje prodavan proizvod: Web camera (0)
+    Proizvodi sa kritičnom prodajom: ['Laptop', 'Monitor', 'Web camera']
+
+------------------------------------------------------------------------
+
+## 🔮 Future Improvements
+
+-   Add CSV/JSON file input
+-   Add unit testing
+-   Convert to CLI application
+-   Implement logging system
+-   Connect to a small SQLite database
+
+------------------------------------------------------------------------
+
+## 🎯 Learning Goal
+
+The goal of this project was to:
+
+-   Strengthen understanding of Python fundamentals
+-   Practice writing modular code
+-   Improve understanding of lambda functions with dictionaries
+-   Learn proper GitHub project structure
+
+------------------------------------------------------------------------
+
+## 👤 Author
+
+Nick Tem
+GitHub: https://github.com/nicktm8

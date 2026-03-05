@@ -49,5 +49,6 @@ def get_product_sales(sales, product_name):
     except Exception as e:
         return f"Došlo je do greške: {e}"  # hvata sve ostale neočekivane greške
 
+
    
     
