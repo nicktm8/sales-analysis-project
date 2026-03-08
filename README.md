@@ -37,17 +37,13 @@ The application allows:
 
 ## 📂 Project Structure
 
-    oop-online-store-system/
+   oop-online-store-system/
     │
-    ├── models/
-    │   ├── person.py
-    │   ├── employee.py
-    │   ├── user.py
-    │   └── product.py
-    │
-    ├── main.py
-    ├── README.md
-    └── .gitignore
+    ├── person.py
+    ├── employee.py
+    ├── user.py
+    ├── product.py
+    └── main.py
 
 ------------------------------------------------------------------------
 
