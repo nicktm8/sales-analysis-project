@@ -35,15 +35,16 @@ The application allows:
 
 ------------------------------------------------------------------------
 
-## 📂 Project Structure
+  ## 📁 Project Structure
 
-   oop-online-store-system/
-    │
-    ├── person.py
-    ├── employee.py
-    ├── user.py
-    ├── product.py
-    └── main.py
+```
+sales-analysis-project/
+├── .gitignore
+├── README.md
+├── main.py
+├── requirements.txt
+└── sales_operations.py
+```
 
 ------------------------------------------------------------------------
 
